@@ -8,6 +8,7 @@ class ContractsController < ApplicationController
 
   # GET /contracts/1 or /contracts/1.json
   def show
+    
   end
 
   # GET /contracts/new
