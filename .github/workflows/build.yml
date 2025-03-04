@@ -16,4 +16,4 @@ jobs:
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
-          SONAR_TOKEN: 0fb0610a74853c5ea8508d81b38c85aea2770973
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
